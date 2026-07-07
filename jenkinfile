@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'pwd'
-                sh 'time'
+                sh 'ls'
             }
         }
     }
